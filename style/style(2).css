@@ -1,0 +1,432 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+
+ul, li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    background-image: url(pattern-white-20.png);
+    width: 100%;
+    
+}
+.logo{
+    margin: 20px;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-family: "raleway",Arial,sans-serif;
+    
+}
+.navbar ul{
+    display: flex;   
+}
+
+.navbar_links{
+    flex: 1;
+}
+.navbar_links li{
+    margin: 40px;
+    font-family: "raleway",Arial,sans-serif;
+}
+.navbar_links a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+.navbar_links a:hover{
+    color: rgb(0, 160, 253);
+}
+.signin-buton{
+    margin: -5px;
+    padding: 7px 50px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 20px;
+    
+    display: flex;
+}
+.signin-buton:hover{
+   background-color: white;
+   color: black;
+   border: 1px solid black;
+}
+
+
+
+
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+    margin: 35px;
+    margin-left: 200px;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+
+}
+
+
+
+#container{
+    float: left;
+    flex-direction: column;
+   transition: 2s;
+}
+.card{
+    background: white;
+    width: 250px;
+    height: 420px;
+    transition: 1s;
+    border-radius: 25px;
+    border: 1px  solid rgba(0, 0, 0, 0.288);
+   margin: 30px;
+    
+    box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.158);
+}
+.card:hover{
+    transition: 1s;
+    box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.37);
+}
+.card img{
+    width: 240px;
+}
+.card h3{
+    font-size: 1.2em;
+    margin: 20px;
+    font-family: "raleway",Arial,sans-serif;
+    text-align:center;
+}
+.price{
+    text-align: center;
+    font-family: "raleway",Arial,sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 30px;
+    color: rgb(0, 160, 253);
+}
+.text{
+    font-family: "raleway",Arial,sans-serif;
+    margin: 10px;
+    text-align: center;
+    color: rgb(0, 160, 253);
+    cursor: pointer;
+    transition: 1s;
+}
+.text:hover{
+    color:  rgb(0, 160, 253);
+}
+
+.btn{
+    margin: 30px;
+    padding: 10px 45px;
+    color: rgb(0, 0, 0);
+    background-color :white ;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 80px;
+    
+}
+.btn:hover{
+    background-color: rgba(0, 153, 241, 0.836);
+    color: white;
+}
+
+
+.delivry{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+   
+}
+.shipping{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.delivry_icon{
+    width: 50px;
+    height: 50px;
+    color: rgb(0, 160, 253);
+}
+.shipping_title{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "raleway",Arial,sans-serif;
+    margin: 10px;
+}
+.shipping_text{
+    width: 50%;
+    height: 100px;
+    color: gray;
+    font-family: "raleway",Arial,sans-serif;
+}
+.bank-logo{
+    width: 100px;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+}
+  
+
+
+/*--------accuile---------*/
+@import url('http://fonts.cdnfonts.com/css/buda');
+.hoodie-title{
+    text-align: center;
+    font-family: "raleway",Arial,sans-serif;
+    font-weight: 100;        
+   margin: 10px;
+}
+.link-hoodie a{
+    color: black;
+    text-decoration: none;
+}
+
+.link-Trousers {
+    text-align: center;
+    font-family: "raleway",Arial,sans-serif;
+}
+
+.link-Trousers a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.link-socks{
+    color: black;
+    text-align: center;
+    font-family: "raleway",Arial,sans-serif;
+}
+.link-socks a{
+    text-decoration: none;
+    color: black;
+}
+.link-choesse{
+    text-align: center;
+    color: black;
+    font-family: "raleway",Arial,sans-serif;
+}
+.link-choesse a{
+    text-decoration: none;
+    color: black;
+}
+.marke{
+    text-align: center;
+}
+.marke img{
+    margin: 30px;
+}
+.carde{
+    background: white;
+    width: 250px;
+    height: 420px;
+    transition: 1s;
+    border-radius: 25px;
+    border: 1px  solid rgba(0, 0, 0, 0.288);
+   margin: 30px;
+    
+    box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.158);
+}
+.carde:hover{
+    transition: 1s;
+    box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.37);
+}
+.carde img{
+    width: 200px;
+}
+.carde h3{
+    font-size: 1.2em;
+    
+    font-family: "raleway",Arial,sans-serif;
+    text-align:center;
+}
+
+.pricee{
+    text-align: center;
+    font-family: "raleway",Arial,sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 10px;
+    color: rgb(0, 160, 253);
+}
+
+
+
+
+
+
+
+/*----------footer---------*/
+footer{
+    width: 100%;
+    display:grid;
+    height: 100%;
+}
+.footer{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height:240px;
+    
+}
+.footer ul{
+    margin: 30px;
+    height: 100px;
+    text-align: center;
+}
+
+.footer_item{
+    display: flex;
+    float: left;
+    margin: 20px;
+}
+.footer_item li{
+    margin: 15px;
+    float: left;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-family: "raleway",Arial,sans-serif;
+    font-size: 0.9em;
+    transition: 0.5s;
+    float: none;
+    cursor: pointer;
+}
+.footer a:hover{
+    color: rgb(138, 138, 138);
+    left: 0;
+    right: 0;
+}
+.copyright{
+    font-family: "raleway",Arial,sans-serif;
+    color: white;
+}
+.socaile_media{
+    display: flex;
+    align-items: center;
+   
+    
+}
+.socaile_media a{
+    margin: 10px;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 50px;
+    transition: 1s;
+}
+.socaile_media a:hover{
+    background-color: white;
+    color:  rgb(0, 0, 0);
+    transition: 1s;
+}
+
+/*_________pc_________*/
+@media all and (max-width: 1024px) {
+    .footer{
+        
+        width: 100%;
+        height:400px;
+        
+    }
+    .signin-buton{
+        margin-left: 130px;
+    }
+    .navbar{
+        width: 120%;
+        
+       
+    }
+    #container{
+        display: contents;
+        float:right;
+        overflow-x: hidden;
+    }
+    .card{
+        float: left;
+        flex-direction: column;
+        display: block;
+        margin-left: 12 0px;
+        box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.158);
+    }
+    .delivry{
+        flex-direction: column;
+    }
+    .footer_item{
+        line-height: normal;
+        width: 100%;
+        flex-direction: column;
+        height: 300px;
+    }
+.footer ul{
+    width: 100%;
+    float: left;
+}
+    .carde{
+        margin-left: 120px;
+    }
+}
+/*_______phone_______*/
+@media all and (max-width: 800px){
+    
+}
+@media all and (max-width: 768px){
+    .hamburger{
+        display: block;
+        margin-right: 100px;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+       transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+     }
+
+     .navbar_links{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+     }
+     .nav-item{
+        margin: 16px 0;
+     }
+     .navbar_links.active{
+        left: 0;
+     }
+     
+}
